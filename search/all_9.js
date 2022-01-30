@@ -26,7 +26,7 @@ var searchData=
   ['hashing_23',['hashing',['../d6/d0c/namespacehashing.html',1,'']]],
   ['hashmax_24',['HASHMAX',['../d1/df3/hash__search_8cpp.html#a77c722016053a1d484aa177ce205b367',1,'hash_search.cpp']]],
   ['hashtab_25',['hashtab',['../d1/df3/hash__search_8cpp.html#af413b1740073db54796642b0ab814d6d',1,'hash_search.cpp']]],
-  ['head_26',['head',['../dd/d1c/classhash__chain.html#ae8457d13620497fa2046ac566252c4b0',1,'hash_chain']]],
+  ['head_26',['head',['../dd/d1c/classhash__chain.html#ae8457d13620497fa2046ac566252c4b0',1,'hash_chain::head()'],['../dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#afb7c986c8f4dff8e3393a37790a5c2db',1,'operations_on_datastructures::linked_list::LinkedList::head()']]],
   ['header_27',['header',['../d4/d90/classdata__structures_1_1_skip_list.html#ad7e392386d7db622185d6f7c718e4f16',1,'data_structures::SkipList']]],
   ['heap_5fsize_28',['heap_size',['../d2/d05/class_min_heap.html#ae4d358bf063bb196a1945b3fb99b4913',1,'MinHeap']]],
   ['heap_5fsort_2ecpp_29',['heap_sort.cpp',['../d2/d52/heap__sort_8cpp.html',1,'']]],

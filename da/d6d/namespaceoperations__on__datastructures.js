@@ -15,6 +15,10 @@ var namespaceoperations__on__datastructures =
       [ "makeNode", "d4/d32/inorder__successor__of__bst_8cpp.html#a7f6f73a33beec448c27cc1d70b220702", null ],
       [ "printInorder", "d4/d32/inorder__successor__of__bst_8cpp.html#a5d7266b934ca50c4f53e4f1e725d89a4", null ]
     ] ],
+    [ "linked_list", null, [
+      [ "LinkedList", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list" ],
+      [ "Node", "da/d04/structoperations__on__datastructures_1_1linked__list_1_1_node.html", "da/d04/structoperations__on__datastructures_1_1linked__list_1_1_node" ]
+    ] ],
     [ "reverse_binary_tree", null, [
       [ "BinaryTree", "de/dcf/classoperations__on__datastructures_1_1reverse__binary__tree_1_1_binary_tree.html", "de/dcf/classoperations__on__datastructures_1_1reverse__binary__tree_1_1_binary_tree" ],
       [ "Node", "d8/dfd/structoperations__on__datastructures_1_1reverse__binary__tree_1_1_node.html", "d8/dfd/structoperations__on__datastructures_1_1reverse__binary__tree_1_1_node" ]

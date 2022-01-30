@@ -134,6 +134,7 @@ var namespaces_dup =
     [ "linear_probing", "d8/d89/namespacelinear__probing.html", "d8/d89/namespacelinear__probing" ],
     [ "linear_recurrence_matrix", "d9/dd1/namespacelinear__recurrence__matrix.html", null ],
     [ "linked_list", "d3/db0/namespacelinked__list.html", null ],
+    [ "LinkedList", "d0/d34/namespace_linked_list.html", null ],
     [ "list_array", "d9/d27/namespacelist__array.html", null ],
     [ "lru_cache", "d8/dcd/namespacelru__cache.html", null ],
     [ "lru_tests", null, [
@@ -311,6 +312,7 @@ var namespaces_dup =
     [ "Subsets", "de/d95/namespace_subsets.html", null ],
     [ "sudoku_solver", "d8/d9f/namespacesudoku__solver.html", null ],
     [ "tests", "d9/df4/namespacetests.html", [
+      [ "test", "d9/df4/namespacetests.html#a735cdd07c1083007bb88a737e9ffff9f", null ],
       [ "test1", "d9/df4/namespacetests.html#a167c24bd817469ae47358d12e034f2d5", null ],
       [ "test2", "d9/df4/namespacetests.html#abdd77344d4af8fd56d14a5cabbf2f669", null ],
       [ "test3", "d9/df4/namespacetests.html#aa515639572647508b94986489aab6d76", null ],

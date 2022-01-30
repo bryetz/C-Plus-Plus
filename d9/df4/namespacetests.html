@@ -119,6 +119,8 @@ Functions</h2></td></tr>
 <tr class="memitem:aacafde185abd8670abee51157f273dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df4/namespacetests.html#aacafde185abd8670abee51157f273dc2">test6</a> ()</td></tr>
 <tr class="memdesc:aacafde185abd8670abee51157f273dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Test to check correct functionality with an array sorted using <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/sort.html">std::sort</a>.  <a href="../../d9/df4/namespacetests.html#aacafde185abd8670abee51157f273dc2">More...</a><br /></td></tr>
 <tr class="separator:aacafde185abd8670abee51157f273dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735cdd07c1083007bb88a737e9ffff9f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/df4/namespacetests.html#a735cdd07c1083007bb88a737e9ffff9f">test</a> ()</td></tr>
+<tr class="separator:a735cdd07c1083007bb88a737e9ffff9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Testcases to check Union of Two Arrays. </p>
@@ -126,6 +128,66 @@ Functions</h2></td></tr>
 <p >Testcases to check intersection of Two Arrays.</p>
 <p >Testcases to check Circular Linked List. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="a735cdd07c1083007bb88a737e9ffff9f" name="a735cdd07c1083007bb88a737e9ffff9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a735cdd07c1083007bb88a737e9ffff9f">&#9670;&nbsp;</a></span>test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void tests::test </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >&lt; Create empty linked list.</p>
+<p >&lt; Even number of elements</p>
+<p >&lt; Odd number of elements</p>
+<div class="fragment"><div class="line"><span class="lineno">  136</span>                       {</div>
+<div class="line"><span class="lineno">  137</span>        <span class="keyword">auto</span> linked = <span class="keyword">new</span> <a class="code hl_namespace" href="../../d0/d34/namespace_linked_list.html">LinkedList</a>(); <span class="comment">///&lt; Create empty linked list.</span></div>
+<div class="line"><span class="lineno">  138</span>        <span class="keywordtype">int</span> numElements = 0;</div>
+<div class="line"><span class="lineno">  139</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Input number of elements in list: &quot;</span> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><span class="lineno">  140</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; numElements;</div>
+<div class="line"><span class="lineno">  141</span>        <span class="keywordflow">while</span> (numElements &lt;= 1) {</div>
+<div class="line"><span class="lineno">  142</span>            <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Input a positive integer greater than 1: &quot;</span> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><span class="lineno">  143</span>            <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; numElements;</div>
+<div class="line"><span class="lineno">  144</span>        }</div>
+<div class="line"><span class="lineno">  145</span> </div>
+<div class="line"><span class="lineno">  146</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Inserting &quot;</span> &lt;&lt; numElements &lt;&lt; <span class="stringliteral">&quot; nodes.&quot;</span> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; numElements; i++) {</div>
+<div class="line"><span class="lineno">  148</span>            linked-&gt;add_node(i);</div>
+<div class="line"><span class="lineno">  149</span>        }</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>        linked-&gt;setMiddle(linked-&gt;find_middle());</div>
+<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">if</span> (numElements % 2 == 0) { <span class="comment">///&lt; Even number of elements</span></div>
+<div class="line"><span class="lineno">  153</span>            assert(linked-&gt;getMiddle()-&gt;value == numElements / 2);</div>
+<div class="line"><span class="lineno">  154</span>        } <span class="keywordflow">else</span> { <span class="comment">///&lt; Odd number of elements</span></div>
+<div class="line"><span class="lineno">  155</span>            assert(linked-&gt;getMiddle()-&gt;value == (numElements + 1) / 2);</div>
+<div class="line"><span class="lineno">  156</span>        }</div>
+<div class="line"><span class="lineno">  157</span>    }</div>
+<div class="ttc" id="abasic_istream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a></div></div>
+<div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
+<div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
+<div class="ttc" id="anamespace_linked_list_html"><div class="ttname"><a href="../../d0/d34/namespace_linked_list.html">LinkedList</a></div><div class="ttdoc">Functions for the doubly-linked list implementation.</div></div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/df4/namespacetests_a735cdd07c1083007bb88a737e9ffff9f_cgraph.svg" width="212" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a167c24bd817469ae47358d12e034f2d5" name="a167c24bd817469ae47358d12e034f2d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a167c24bd817469ae47358d12e034f2d5">&#9670;&nbsp;</a></span>test1()</h2>
 
@@ -175,7 +237,6 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   83</span>    <a class="code hl_function" href="../../d8/ddf/sieve__of__eratosthenes_8cpp.html#a235843bdf82d2a6cc8596ae8fd3b8df9">print</a>(res);  <span class="comment">///&lt; Should print 3 4 5 1 2</span></div>
 <div class="line"><span class="lineno">   84</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;TEST PASSED!\n\n&quot;</span>;</div>
 <div class="line"><span class="lineno">   85</span>}</div>
-<div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="anamespaceoperations__on__datastructures_html_afce39cf843989a39811a49ebe29dd6d8"><div class="ttname"><a href="../../da/d6d/namespaceoperations__on__datastructures.html#afce39cf843989a39811a49ebe29dd6d8">operations_on_datastructures::shift_left</a></div><div class="ttdeci">std::vector&lt; int32_t &gt; shift_left(const std::vector&lt; int32_t &gt; &amp;array, size_t shift)</div><div class="ttdoc">Shifts the given vector to the left by the shift amount and returns a new vector with the result....</div><div class="ttdef"><b>Definition:</b> array_left_rotation.cpp:46</div></div>
 <div class="ttc" id="asieve__of__eratosthenes_8cpp_html_a235843bdf82d2a6cc8596ae8fd3b8df9"><div class="ttname"><a href="../../d8/ddf/sieve__of__eratosthenes_8cpp.html#a235843bdf82d2a6cc8596ae8fd3b8df9">print</a></div><div class="ttdeci">void print(uint32_t N, const std::vector&lt; bool &gt; &amp;is_prime)</div><div class="ttdef"><b>Definition:</b> sieve_of_eratosthenes.cpp:44</div></div>
 <div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a></div></div>

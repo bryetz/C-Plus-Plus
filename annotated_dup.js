@@ -86,6 +86,10 @@ var annotated_dup =
       [ "inorder_traversal_of_bst", null, [
         [ "Node", "d5/db5/classoperations__on__datastructures_1_1inorder__traversal__of__bst_1_1_node.html", "d5/db5/classoperations__on__datastructures_1_1inorder__traversal__of__bst_1_1_node" ]
       ] ],
+      [ "linked_list", null, [
+        [ "LinkedList", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list" ],
+        [ "Node", "da/d04/structoperations__on__datastructures_1_1linked__list_1_1_node.html", "da/d04/structoperations__on__datastructures_1_1linked__list_1_1_node" ]
+      ] ],
       [ "reverse_binary_tree", null, [
         [ "BinaryTree", "de/dcf/classoperations__on__datastructures_1_1reverse__binary__tree_1_1_binary_tree.html", "de/dcf/classoperations__on__datastructures_1_1reverse__binary__tree_1_1_binary_tree" ],
         [ "Node", "d8/dfd/structoperations__on__datastructures_1_1reverse__binary__tree_1_1_node.html", "d8/dfd/structoperations__on__datastructures_1_1reverse__binary__tree_1_1_node" ]
@@ -164,7 +168,6 @@ var annotated_dup =
     [ "Item", "db/d66/struct_item.html", null ],
     [ "large_number", "db/d82/classlarge__number.html", "db/d82/classlarge__number" ],
     [ "linkedlist", "d0/dff/structlinkedlist.html", null ],
-    [ "LinkedList", "d4/da4/class_linked_list.html", "d4/da4/class_linked_list" ],
     [ "list", "d8/d10/structlist.html", "d8/d10/structlist" ],
     [ "MinHeap", "d2/d05/class_min_heap.html", "d2/d05/class_min_heap" ],
     [ "MinHeapNode", "d5/d29/struct_min_heap_node.html", null ],

@@ -139,19 +139,19 @@ var NAVTREEINDEX =
 "annotated.html",
 "cpp/iterator/distance.html",
 "cpp/thread/lock.html",
-"d1/d83/classuint256__t.html#a90ce75bec5b525de55bbf92c564a2261",
-"d2/d8a/classrange__queries_1_1heavy__light__decomposition_1_1_h_l_d.html#a2dfbda148aad0bfaba2ebfda9ebc915a",
-"d4/d32/inorder__successor__of__bst_8cpp.html#a7f6f73a33beec448c27cc1d70b220702",
+"d1/d83/classuint256__t.html#a89cf7fa466458ee08edd9a809d072bcb",
+"d2/d8a/classrange__queries_1_1heavy__light__decomposition_1_1_h_l_d.html#a1b336474d17eff1aa4be73d4068dc725",
+"d4/d32/inorder__successor__of__bst_8cpp.html#a7b20eb99272665c1777949e26ab59589",
 "d5/d58/class_test_cases.html#abae0148985f159b582a385cf399254e3",
 "d6/d30/classmachine__learning_1_1adaline.html#ac8a9c2aaaa63b0f27ea176857e1e7d56",
 "d7/d7c/classstatistics_1_1stats__computer1.html#a27f0a03e2fd2254f1c81fe668226bd92",
 "d8/d9a/fast__fourier__transform_8cpp.html",
 "d9/df0/fast__integer__input_8cpp.html#a4e097ac8509b717bdc8ab09ecd86ae82",
-"db/d07/spiral__print_8cpp.html#acfff36db81326fb990a643ab198ee8a5",
-"dc/d61/classgraph_1_1_graph.html#a59940c462861f2fcf4951d1b6c084e6a",
-"dd/d91/class_fenwick_tree.html#a70f8c261393ca09ec1ad716ac806ead6",
-"de/de4/fibonacci__large_8cpp.html#adf3e906875ab257f7fab3bc1370aa2db",
-"globals_func_f.html"
+"db/d01/brent__method__extrema_8cpp.html#a1440a7779ac56f47a3f355ce4a8c7da0",
+"dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#afb7c986c8f4dff8e3393a37790a5c2db",
+"dd/d47/namespacemath.html#a6e2dff75c5de70455b90c799d6ad6967",
+"de/dcf/classoperations__on__datastructures_1_1reverse__binary__tree_1_1_binary_tree.html",
+"functions_m.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

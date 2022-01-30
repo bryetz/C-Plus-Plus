@@ -8,6 +8,7 @@ var searchData=
   ['t_5froot_5',['t_root',['../d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html#aa6c37e840355b9fb2105181c578694e8',1,'range_queries::heavy_light_decomposition::Tree']]],
   ['t_5fsize_6',['t_size',['../d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html#ada1494fccbc7f1f07b2f9be9f7e07ad5',1,'range_queries::heavy_light_decomposition::Tree']]],
   ['t_5fval_7',['t_val',['../d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html#a135b7952593c9b1aae38fcaf1cc1abf7',1,'range_queries::heavy_light_decomposition::Tree']]],
-  ['test_5fset_8',['test_set',['../d3/d7d/brute__force__string__searching_8cpp.html#ae2abaa9caa13fff35e45edca00bee123',1,'brute_force_string_searching.cpp']]],
-  ['top_9',['top',['../d2/d2c/structtower.html#acb535964abd34c47678a4ade0628223d',1,'tower']]]
+  ['tail_8',['tail',['../dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#ace0279ce495d2a39cbf7b2d9dd1bac45',1,'operations_on_datastructures::linked_list::LinkedList']]],
+  ['test_5fset_9',['test_set',['../d3/d7d/brute__force__string__searching_8cpp.html#ae2abaa9caa13fff35e45edca00bee123',1,'brute_force_string_searching.cpp']]],
+  ['top_10',['top',['../d2/d2c/structtower.html#acb535964abd34c47678a4ade0628223d',1,'tower']]]
 ];
