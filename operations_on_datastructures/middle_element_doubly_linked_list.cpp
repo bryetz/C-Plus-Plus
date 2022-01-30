@@ -9,11 +9,12 @@ public:
 
   Node* findMiddle();
   void addNode(int value);
-  Node* middle = nullptr;
+  
   
 private:
   Node* tail = nullptr;
   Node* head = nullptr;
+  Node* middle = nullptr;
 };
 
 void LinkedList::addNode(const int value) {
@@ -54,9 +55,9 @@ LinkedList::Node* LinkedList::findMiddle() {
 }
 
 static void test() {
-  LinkedList* linked = new LinkedList();
-  linked->middle = linked->findMiddle(); // Linked list is empty.
-  if(linked->middle != nullptr) {
+  auto linked = new LinkedList();
+  LinkedList::Node* middle = linked->findMiddle(); // Linked list is empty.
+  if(middle != nullptr) {
     std::cout << "middle should be nullptr, linked list is empty" << std::endl;
   }
   int numElements = 42;
@@ -65,17 +66,17 @@ static void test() {
     linked->addNode(i);
   }
 
-  linked->middle = linked->findMiddle();
+  middle = linked->findMiddle();
   if (numElements % 2 == 0) {
     // even number of elements
-    if (linked->middle->value == numElements / 2) {
+    if (middle->value == numElements / 2) {
     std::cout << "Test passed." << std::endl;
     } else {
       std::cout << "Test failed." << std::endl;
     }
   } else {
     // odd number of elements
-    if (linked->middle->value == (numElements + 1) / 2) {
+    if (middle->value == (numElements + 1) / 2) {
     std::cout << "Test passed." << std::endl;
     } else {
       std:: cout << "Test failed." << std::endl;
