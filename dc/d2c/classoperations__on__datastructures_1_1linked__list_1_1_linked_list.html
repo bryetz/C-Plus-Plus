@@ -204,7 +204,7 @@ Private Attributes</h2></td></tr>
 <p>Adds a new node to the end of the list. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">value</td><td>The integer value of the node </td></tr>
+    <tr><td class="paramname">value</td><td>The integer value of the new node </td></tr>
   </table>
   </dd>
 </dl>
@@ -261,14 +261,13 @@ Private Attributes</h2></td></tr>
 <p >An algorithm using a slow and fast pointer, where the fast pointer is twice as fast as the slow pointer. When the fast pointer reaches the end of the doubly linked list, the slow pointer will be at the middle. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to the middle node. </dd></dl>
 <p >&lt; set slow pointer to start</p>
 <p >&lt; set fast pointer to start</p>
-<p >&lt; while fast pointer can still move</p>
 <p >&lt; fast advances two nodes</p>
 <p >&lt; slow advances one node</p>
 <div class="fragment"><div class="line"><span class="lineno">   91</span>                       {</div>
 <div class="line"><span class="lineno">   92</span>        <a class="code hl_class" href="../../db/d8b/struct_node.html">Node</a>* slow = <a class="code hl_variable" href="../../dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#afb7c986c8f4dff8e3393a37790a5c2db">head</a>; <span class="comment">///&lt; set slow pointer to start</span></div>
 <div class="line"><span class="lineno">   93</span>        <a class="code hl_class" href="../../db/d8b/struct_node.html">Node</a>* fast = <a class="code hl_variable" href="../../dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#afb7c986c8f4dff8e3393a37790a5c2db">head</a>; <span class="comment">///&lt; set fast pointer to start</span></div>
 <div class="line"><span class="lineno">   94</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#afb7c986c8f4dff8e3393a37790a5c2db">head</a> != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><span class="lineno">   95</span>            <span class="keywordflow">while</span> (fast != <span class="keyword">nullptr</span> &amp;&amp; fast-&gt;next != <span class="keyword">nullptr</span>) { <span class="comment">///&lt; while fast pointer can still move</span></div>
+<div class="line"><span class="lineno">   95</span>            <span class="keywordflow">while</span> (fast != <span class="keyword">nullptr</span> &amp;&amp; fast-&gt;next != <span class="keyword">nullptr</span>) {</div>
 <div class="line"><span class="lineno">   96</span>                fast = fast-&gt;next-&gt;next;  <span class="comment">///&lt; fast advances two nodes</span></div>
 <div class="line"><span class="lineno">   97</span>                slow = slow-&gt;next;  <span class="comment">///&lt; slow advances one node</span></div>
 <div class="line"><span class="lineno">   98</span>            }</div>
@@ -410,7 +409,7 @@ Here is the call graph for this function:</div>
 <p>Sets middle of <a class="el" href="../../dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html">LinkedList</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">middle</td><td>Pointer to set middle </td></tr>
+    <tr><td class="paramname">node</td><td>Pointer to set middle </td></tr>
   </table>
   </dd>
 </dl>
