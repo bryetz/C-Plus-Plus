@@ -151,8 +151,9 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >&lt; Create empty linked list.</p>
-<p >&lt; Even number of elements</p>
-<p >&lt; Odd number of elements</p>
+<p >&lt; Even number of elements, two middle nodes</p>
+<p >&lt; must be second middle node</p>
+<p >&lt; Odd number of elements, one middle node</p>
 <div class="fragment"><div class="line"><span class="lineno">  136</span>                       {</div>
 <div class="line"><span class="lineno">  137</span>        <span class="keyword">auto</span> linked = <span class="keyword">new</span> <a class="code hl_namespace" href="../../d0/d34/namespace_linked_list.html">LinkedList</a>(); <span class="comment">///&lt; Create empty linked list.</span></div>
 <div class="line"><span class="lineno">  138</span>        <span class="keywordtype">int</span> numElements = 0;</div>
@@ -164,14 +165,14 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  144</span>        }</div>
 <div class="line"><span class="lineno">  145</span> </div>
 <div class="line"><span class="lineno">  146</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Inserting &quot;</span> &lt;&lt; numElements &lt;&lt; <span class="stringliteral">&quot; nodes.&quot;</span> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; numElements; i++) {</div>
-<div class="line"><span class="lineno">  148</span>            linked-&gt;add_node(i);</div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= numElements; i++) {</div>
+<div class="line"><span class="lineno">  148</span>            linked-&gt;addNode(i);</div>
 <div class="line"><span class="lineno">  149</span>        }</div>
 <div class="line"><span class="lineno">  150</span> </div>
-<div class="line"><span class="lineno">  151</span>        linked-&gt;setMiddle(linked-&gt;find_middle());</div>
-<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">if</span> (numElements % 2 == 0) { <span class="comment">///&lt; Even number of elements</span></div>
-<div class="line"><span class="lineno">  153</span>            assert(linked-&gt;getMiddle()-&gt;value == numElements / 2);</div>
-<div class="line"><span class="lineno">  154</span>        } <span class="keywordflow">else</span> { <span class="comment">///&lt; Odd number of elements</span></div>
+<div class="line"><span class="lineno">  151</span>        linked-&gt;setMiddle(linked-&gt;findMiddle());</div>
+<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">if</span> (numElements % 2 == 0) { <span class="comment">///&lt; Even number of elements, two middle nodes</span></div>
+<div class="line"><span class="lineno">  153</span>            assert(linked-&gt;getMiddle()-&gt;value == (numElements / 2) + 1); <span class="comment">///&lt; must be second middle node</span></div>
+<div class="line"><span class="lineno">  154</span>        } <span class="keywordflow">else</span> { <span class="comment">///&lt; Odd number of elements, one middle node</span></div>
 <div class="line"><span class="lineno">  155</span>            assert(linked-&gt;getMiddle()-&gt;value == (numElements + 1) / 2);</div>
 <div class="line"><span class="lineno">  156</span>        }</div>
 <div class="line"><span class="lineno">  157</span>    }</div>

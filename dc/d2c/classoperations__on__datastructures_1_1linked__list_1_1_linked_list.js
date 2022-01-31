@@ -1,8 +1,8 @@
 var classoperations__on__datastructures_1_1linked__list_1_1_linked_list =
 [
     [ "LinkedList", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#a47bcbcd1cc4c238819c1ee71b459ab1a", null ],
-    [ "add_node", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#abbedcf11f97f4360eb6dfde4cd114e7a", null ],
-    [ "find_middle", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#abac19cdf48fe1b2ede08ad01e45e04ee", null ],
+    [ "addNode", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#abf41ff88c9df02bfa21cb5b2c471b5d0", null ],
+    [ "findMiddle", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#a8cd2f32d9eb843eb373bbb03c7ce2cc1", null ],
     [ "getHead", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#a71a53c82866b5bbd274ab8a08480819a", null ],
     [ "getMiddle", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#a261f554baee40c184bc7168d4fc5e99f", null ],
     [ "getTail", "dc/d2c/classoperations__on__datastructures_1_1linked__list_1_1_linked_list.html#afdfaf387f1612cedcf827fb34696122b", null ],
