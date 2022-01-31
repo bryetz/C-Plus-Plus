@@ -134,6 +134,7 @@ var namespaces_dup =
     [ "linear_probing", "d8/d89/namespacelinear__probing.html", "d8/d89/namespacelinear__probing" ],
     [ "linear_recurrence_matrix", "d9/dd1/namespacelinear__recurrence__matrix.html", null ],
     [ "linked_list", "d3/db0/namespacelinked__list.html", null ],
+    [ "LinkedList", "d0/d34/namespace_linked_list.html", null ],
     [ "list_array", "d9/d27/namespacelist__array.html", null ],
     [ "lru_cache", "d8/dcd/namespacelru__cache.html", null ],
     [ "lru_tests", null, [
